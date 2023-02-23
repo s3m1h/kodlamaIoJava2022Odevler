@@ -17,7 +17,7 @@ public class main {
 		
 		CategoryManager categoryManager = new CategoryManager(new HibernateCategoryDao(),loggers);
 		
-		Category category1 = new Category(2,"web1");
+		Category category1 = new Category(2,"web11");
 		categoryManager.add(category1);
 		
 		Category category2 = new Category(2,"mobil");
