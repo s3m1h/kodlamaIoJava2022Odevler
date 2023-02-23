@@ -31,7 +31,7 @@ public class main {
 		
 		
 		CourseManager courseManager = new CourseManager(new HibernateCourseDao(),loggers);
-		courseManager.add(new Course(5,"C programlama","masaüstü","semih","c , c programlama","2-23-2023",25));
+		courseManager.add(new Course(5,"C programlama","masaüstü","semih","c programlama eğitimi, c programlama","2-23-2023",25));
 	}
 
 }
